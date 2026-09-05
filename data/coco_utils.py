@@ -1,14 +1,3 @@
-"""
-Utilities for reading ARCADE's COCO-format annotations and turning them
-into pixel masks / class-mapping dictionaries.
-
-Key finding this module encodes a fix for: in the ARCADE `syntax` task,
-COCO `category_id` does not always match the true SYNTAX segment number
-stored in `category["name"]` (e.g. category_id=20 -> name="16"). Any
-class-name lookup MUST go through `build_category_maps`, never assume
-`id == name`.
-"""
-
 import json
 import os
 from collections import defaultdict
