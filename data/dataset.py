@@ -1,10 +1,3 @@
-"""
-PyTorch Dataset for coronary vessel segmentation (25-class + background),
-plus a weighted sampler that oversamples images containing rare vessel
-classes (classes with fewer than RARE_CLASS_ANNOTATION_THRESHOLD training
-annotations -- see configs/config.py).
-"""
-
 import glob
 import os
 from pathlib import Path
