@@ -51,22 +51,6 @@ Angio-DualDx takes a single coronary X-ray angiography image and produces two al
 
 A single shared-encoder multi-task network was tried first and abandoned — see [Architecture decisions](#architecture-decisions) for the full reasoning, evidence, and why two specialized models outperform it.
 
-<p align="center">
-  <img src="assets/architecture_overview.png" width="900">
-</p>
-
-<p align="center">
-  <em>Pipeline overview: two independent, specialized models (not a shared multi-task network), fused only at the post-processing stage.</em>
-</p>
-
-<details>
-<summary><b>Expand for a layer-level architecture diagram</b> (encoder/decoder channel dimensions, YOLO backbone blocks, loss formulas)</summary>
-<br>
-<p align="center">
-  <img src="assets/architecture_detailed.png" width="1000">
-</p>
-</details>
-
 ---
 
 # Key Features
