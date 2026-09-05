@@ -1,12 +1,3 @@
-"""
-Central configuration for the ARCADE coronary artery segmentation +
-stenosis detection pipeline.
-
-All paths, hyperparameters, and class-mapping tables used across the
-project are defined here so that scripts in `data/`, `models/`, and
-`src/` never hardcode magic numbers or paths.
-"""
-
 import os
 
 # ---------------------------------------------------------------------------
