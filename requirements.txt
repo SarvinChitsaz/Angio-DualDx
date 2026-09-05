@@ -1,0 +1,10 @@
+torch>=2.0
+torchvision>=0.15
+segmentation-models-pytorch>=0.3
+ultralytics>=8.0
+albumentations>=1.4
+opencv-python-headless>=4.8
+numpy>=1.24
+scipy>=1.10
+Pillow>=10.0
+matplotlib>=3.7

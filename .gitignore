@@ -1,0 +1,22 @@
+# data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# model weights / training runs (large binaries -- do not commit)
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+!models/checkpoints/README.md
+*.pth
+*.pt
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
